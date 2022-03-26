@@ -1,0 +1,16 @@
+{
+    "name": "samadi/samtech-skripsi",
+    "description": "Project skipsi ADI NUGROHO 2020804171 | Absen Online IPEM",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Samadi\\SamtechSkripsi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ADI NUGROHO"
+        }
+    ],
+    "require": {}
+}
