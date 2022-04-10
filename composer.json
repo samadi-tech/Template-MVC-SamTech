@@ -4,13 +4,24 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Samadi\\SamtechSkripsi\\": "src/"
+            "SamtechSkripsi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SamtechSkripsi\\":"test/"
         }
     },
     "authors": [
         {
-            "name": "ADI NUGROHO"
+            "name": "ADI NUGROHO",
+            "email": "adienugroho.email@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php":">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
 }
